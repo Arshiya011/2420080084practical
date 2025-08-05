@@ -1,0 +1,13 @@
+package my_project;
+
+public class manualcast {
+	public static void main(String args[]) {
+		double D=9.78;
+		int m=(int)D;
+		//manual casting:double to int
+		System.out.println(D);
+		System.out.println(m);
+		
+	}
+
+}
