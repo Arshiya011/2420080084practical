@@ -1,0 +1,35 @@
+package my_project;
+
+public class stringhandling {
+	public static void main(String args[]) {
+		String str="hello this is java class";
+		String str1="hello";
+		String str2="HeLLO";
+		String str3="hi how are you";
+		String str4="hello";
+		String str5="1234";
+		String str6="Java234";
+		String str7="";
+		String str9="    hello java  ";
+		System.out.println(str.length());//gives the number of alpahbets used.
+		System.out.println(str.toUpperCase());//converts evgthing into upper case
+		System.out.println(str2.toLowerCase());
+		System.out.println(str.charAt(7));//starts from 0 and gives the alphabet at index position 7
+		System.out.println(str1.compareTo(str2));//prints the differrence b/w the ascii value
+		System.out.println(str1.compareToIgnoreCase(str2));
+		System.out.println(str1.concat(str3));//joins two statements
+		System.out.println(str1.contains(str3));//returns a boolean value
+		System.out.println(str2.contentEquals(str4));//returns a boolean value
+		System.out.println(str1.endsWith("lo"));//boolean value
+		System.out.println(str1.equals(str3));//boolean value
+		System.out.println(str1.indexOf(0));
+		System.out.println(str5.matches("[a-zA-Z0-9]+"));
+		System.out.println(str5.matches("\\d+"));
+		System.out.println(str1.matches("[a-zA-Z]+\\d+"));
+		System.out.println(str7.isEmpty());
+		//(String.join("|",str2,str3,str4));
+		System.out.println(str1.lastIndexOf('l'));
+		float f=9.8f;
+		System.out.println(String.valueOf(f));
+		}
+}
